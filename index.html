@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwindcss => CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Font awesome  -->
+    <script src="https://kit.fontawesome.com/11ab1fff1a.js" crossorigin="anonymous"></script>
+    <style>
+        .my-background{
+            background-image:
+            url('./c2-assets/vegetable-offer.png');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-around items-center pt-6 pb-6 mb-20">
+            <img class="cursor-pointer" src="c2-assets/logo-header.png" alt="">
+            <div class="flex items-center gap-8 font-bold  cursor-pointer">
+                <p>Product</p>
+                <p>Services</p>
+                <p>Contact us</p>
+            </div>
+            <div class="flex gap-4 items-center font-bold  cursor-pointer">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button class="border border-[#1c9e8c] rounded p-2 pl-5 pr-5  cursor-pointer">Login</button>
+                <button class="bg-[#179800] rounded  p-2 pl-5 pr-5  cursor-pointer text-white">Register</button>
+            </div>
+        </nav>
+    </header>
+    <section class="text-center bg-linear-to-t from-[#f1ede4]">
+        <div class="text-6xl mb-8">
+            <h1>Freshness <span class="text-[#17914d]">You Can</span></h1>
+            <h1> <span class="text-[#17914d]">Count</span> On, Prices You’ll Love!</h1>
+        </div>
+        <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry</p>
+        <p class="mb-9">staples, we’ve got you covered every day!</p>
+        <img  class="mx-auto w-9/12 h-1/4" src="c2-assets/hero-vegetables.png" alt="">
+    </section>
+    <section class="m-35">
+        <h2 class="text-4xl font-semibold text-[#17914d] mb-12">Services</h2>
+        <div class="flex gap-6 justify-between text-center">
+            <div class="bg-[#f1ede4] rounded-2xl cursor-pointer">
+                <div>
+                    <div class="bg-white w-36 h-36 rounded-full relative mx-auto mt-8 mb-6">
+                        <img class=" mb-6 mt-6 ml-6 absolute "  src="c2-assets/service.png" alt="">
+                    </div>
+                    
+                </div>
+                <p class="font-semibold text-2xl mb-3">24/7 Services </p>
+                <p class="w-xs mb-11 px-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt odit nihil tempore quibusdam libero molestiae quasi autem, neque reprehenderit.</p>
+            </div>
+            <div class="bg-[#f1ede4] rounded-2xl cursor-pointer">
+                <div>
+                    <div class="bg-white w-36 h-36 rounded-full relative mx-auto mt-8 mb-6">
+                        <img class=" mb-6 mt-6 ml-6 absolute "  src="c2-assets/delivery.png" alt="">
+                    </div>
+                    
+                </div>
+                <p class="font-semibold text-2xl mb-3">Fast Delivery </p>
+                <p class="w-xs mb-11 px-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt odit nihil tempore quibusdam libero molestiae quasi autem, neque reprehenderit.</p>
+            </div>
+            <div class="bg-[#f1ede4] rounded-2xl cursor-pointer">
+                <div>
+                    <div class="bg-white w-36 h-36 rounded-full relative mx-auto mt-8 mb-6">
+                        <img class="mb-6 mt-6 ml-6 absolute "  src="c2-assets/healthy.png" alt="">
+                    </div>
+                    
+                </div>
+                <p class="font-semibold text-2xl mb-3">Healthy Products  </p>
+                <p class="w-xs mb-11 px-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deserunt odit nihil tempore quibusdam libero molestiae quasi autem, neque reprehenderit.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ml-35 mr-35">
+        <div class="">
+            <h2 class="text-4xl font-semibold text-[#17914d] mb-12">Popular Products</h2>            
+        </div>
+        <!-- bg-linear-to-br from-[#55dd36] -->
+        <div class="px-6 pt-8 rounded-xl w-100 h-96 my-background ">
+            <h1 class="text-2xl font-bold text-white">30% off</h1>
+            <p class="w-72 py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium quas soluta natus ea nihil sint at impedit placeat neque.</p>
+            <button class="bg-[#ffffff] rounded p-2 pl-5 pr-5 font-bold  cursor-pointer">Buy Now</button>
+
+        </div>
+
+    </section>
+</body>
+</html>
